@@ -1,0 +1,17 @@
+// test expressions in compL--
+
+i: integer = 5;
+j: integer = 10;
+b: boolean = false;
+
+i = 10 * j;
+j = j + i * i;
+b = i < j;
+
+if (b) { 
+   return i;
+}
+else
+{
+   return j;
+} 
